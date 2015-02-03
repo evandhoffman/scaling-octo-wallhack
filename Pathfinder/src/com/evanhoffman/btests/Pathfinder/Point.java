@@ -16,11 +16,6 @@ public class Point {
 
 	private int yCoord;
 	
-	public Point(int x, int y) {
-		xCoord = x;
-		yCoord = y;
-	}
-
 	@SuppressWarnings("unchecked")
 	public Point(LinkedList<Point> prevPath, int xCoord, int yCoord) {
 		this.xCoord = xCoord;
